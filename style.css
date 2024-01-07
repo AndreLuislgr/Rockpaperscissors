@@ -1,0 +1,50 @@
+.player-options img,
+.enemy-options img {
+    max-width: 200px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.allign {
+display: flex;
+justify-content: center; /* Center the content horizontally */
+align-items: center; /* Center the content vertically */
+background-color: beige;
+height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.player-options,
+.enemy-options {
+width: 50%;
+display: flex;
+flex-direction: column; /* Align items vertically */
+align-items: center;
+}
+
+.player-options img,
+.enemy-options img {
+max-width: 200px;
+opacity: 0.3;
+cursor: pointer;
+}
+
+
+
+.vencedor{
+    border: 1px solid black;
+
+}
+.linhaMeio{
+height: 100%;
+border: 1px solid black;
+}
+ @media screen and (max-width: 768px) {
+    .allign {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .player-options,
+    .enemy-options {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
